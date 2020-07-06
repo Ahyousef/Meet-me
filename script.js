@@ -1,9 +1,9 @@
 'use strict'
 
-/*var name = prompt("Welcome player, what is your name?");
+var name = prompt("Welcome player, what is your name?");
 alert("Welcome " + name + ". Get ready to meet me");
 alert("Please read info about me, then press buttons to play");
-alert("Answer with a yes or no")*/;
+alert("Answer with a yes or no");
 
 var correct = 0;
 function ques(num) {
@@ -12,7 +12,7 @@ function ques(num) {
         ans1 = ans1.toLowerCase();
         if (ans1 == "yes" || ans1 == "y") {
             correct ++; 
-            console.log("You are correct! You have " + correct + " ccorrect answers out of 5");
+            //console.log("You are correct! You have " + correct + " ccorrect answers out of 5");
             alert("You are correct! You have " + correct + " ccorrect answers out of 5");
             document.getElementById("prize").innerHTML = name + " you have " + correct + " Correct answers";
         }
@@ -27,7 +27,7 @@ function ques(num) {
         ans2 = ans2.toLowerCase();
         if (ans2 == "no" || ans2 == "n") {
             correct ++; 
-            console.log("You are correct! You have " + correct + " ccorrect answers out of 5");
+           // console.log("You are correct! You have " + correct + " ccorrect answers out of 5");
             alert("You are correct! You have " + correct + " ccorrect answers out of 5");
             document.getElementById("prize").innerHTML = name + " you have " + correct + " Correct answers";
         }
@@ -43,7 +43,7 @@ function ques(num) {
         ans3 = ans3.toLowerCase();
         if (ans3 == "yes" || ans3 == "y") {
             correct ++; 
-            console.log("You are correct! You have " + correct + " ccorrect answers out of 5");
+          //  console.log("You are correct! You have " + correct + " ccorrect answers out of 5");
             alert("You are correct! You have " + correct + " ccorrect answers out of 5");
             document.getElementById("prize").innerHTML = name + " you have " + correct + " Correct answers";
         }
@@ -59,7 +59,7 @@ function ques(num) {
         ans4 = ans4.toLowerCase();
         if (ans4 == "yes" || ans4 == "y") {
             correct ++; 
-            console.log("You are correct! You have " + correct + " ccorrect answers out of 5");
+          //  console.log("You are correct! You have " + correct + " ccorrect answers out of 5");
             alert("You are correct! You have " + correct + " ccorrect answers out of 5");
             document.getElementById("prize").innerHTML = name + " you have " + correct + " Correct answers";
         }
@@ -75,7 +75,7 @@ function ques(num) {
         ans5 = ans5.toLowerCase();
         if (ans5 == "no" || ans5 == "n") {
             correct ++; 
-            console.log("You are correct! You have " + correct + " ccorrect answers out of 5");
+//console.log("You are correct! You have " + correct + " ccorrect answers out of 5");
             alert("You are correct! You have " + correct + " ccorrect answers out of 5");
             document.getElementById("prize").innerHTML = name + " you have " + correct + " Correct answers";
 
@@ -91,8 +91,12 @@ function ques(num) {
 function result() {
     if (correct < 3) {
         alert("You have not passed, answer more questions");
+        document.getElementById("prize").innerHTML = "Try again !";
+
     }
     else {
         alert("Congrats you have passed! Can't wait to know you now :D");
+        document.getElementById("prize").innerHTML = "You passed!!";
+
     }
 }
