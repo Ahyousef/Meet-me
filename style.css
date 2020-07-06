@@ -24,15 +24,80 @@ header img{
     width: 250px;
     padding-right: 30px;
     margin-top: 15px;
+     
 }
 
 #bio {
     float: left;
-    width: 400px;
+    width: 1000px;
     font-size: larger;
 }
 
 #bio ul {
-    padding-left: 15px;
+    padding-left: 25px;
     margin-top: 30px;
+    background-color: indianred;
+    color: #022729;
+    border: 3px black solid;
+}
+#bio p {
+    background-color: lightcoral;
+    font-size: x-large;
+    color: #022729;
+    border: 3px solid black;
+}
+body {
+    background-image: url('https://i.ya-webdesign.com/images/website-backgrounds-png.png');
+}
+
+#main {
+    display: inline-block;
+    border: solid 5px green;
+}
+
+button{
+    margin-left: 113px;
+    color: white;
+    font-size: 24px;
+    background-color: steelblue;
+    border: 0px;
+    border-radius: 15px;
+    box-shadow: 0 5px rgb(206, 204, 204);
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgb(15, 68, 112);
+    box-shadow:0 4px rgb(175, 175, 175) ;
+    transform: translateY(3px);
+}
+#resultsb{
+    margin-left: 605px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 35px;
+    background-color: rgb(65, 11, 33);
+    border: 0px;
+    border-radius: 15px;
+    box-shadow: 0 5px rgb(206, 204, 204);
+    cursor: pointer;
+    outline: none;
+}
+
+#prize {
+    margin-top: 10px ;
+    width: 300px;
+    text-align: center;
+    background-color: tomato;
+    color: black;
+    margin-left: 515px;
+    font-size: xx-large;
+}
+
+#resultsb:hover {
+    background-color: rgb(177, 54, 32);
+    box-shadow:0 4px rgb(36, 36, 36) ;
+    transform: translateY(3px);
 }

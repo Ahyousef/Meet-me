@@ -18,30 +18,37 @@
         </div>
     </header>
     <main>
-        <section>
+        <section id="main">
             <img id="profile" src="https://i.imgur.com/EGpOwKF.png" alt="pic">
             <div id="bio">
                 <p>Meet Ahmad, a junior developer who wants to study AI.
-                    Ahmad is a palestinian refugee that was born and raised in Jordan, 
+                    Ahmad is a palestinian refugee that was born <br> <br> and raised in Jordan,
                     he lived his last 2 years in China, and he loves to eat and eat.
                 </p>
                 <br>
-                <ul>
-                    <li>Likes to watch movies and series</li>
+                <ul style="float: left;">
+                    <li>Likes to watch movies</li>
+                    <br>
+                    <br>
                     <li>Loves Barcelona</li>
+
+                </ul>
+                <ul style="float: right; margin-right: 30px;">
                     <li>Likes to play video games</li>
-                    <li>Loves music</li>
+                    <br>
+                    <br>
+                    <li>Loves jazz and soul music</li>
                 </ul>
             </div>
         </section>
 
-        <section>
+        <section id="buttons" style="margin-top:50px;">
             <button onclick="ques(1)">Question 1</button>
             <button onclick="ques(2)">Question 2</button>
             <button onclick="ques(3)">Question 3</button>
             <button onclick="ques(4)">Question 4</button>
             <button onclick="ques(5)">Question 5</button>
-            <button onclick="result()">Results</button>
+            <button id="resultsb" onclick="result()">Results</button>
         </section>
 
         <div id="prize"></div>
