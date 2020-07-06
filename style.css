@@ -1,0 +1,38 @@
+header div {
+    text-align: center;
+    background-color: burlywood;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header img{
+    width: 100px;
+    margin-top: 5px;
+}
+
+#yellowHand{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+#brownHand{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+#profile {
+    float:left;
+    width: 250px;
+    padding-right: 30px;
+    margin-top: 15px;
+}
+
+#bio {
+    float: left;
+    width: 400px;
+    font-size: larger;
+}
+
+#bio ul {
+    padding-left: 15px;
+    margin-top: 30px;
+}
