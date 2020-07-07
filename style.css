@@ -98,7 +98,7 @@ button:hover {
 }
 
 #resultsb:hover {
-    background-color: rgb(177, 54, 32);
+    background-color: rgb(177, 54, 31);
     box-shadow:0 4px rgb(36, 36, 36) ;
     transform: translateY(3px);
 }
