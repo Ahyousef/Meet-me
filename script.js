@@ -1,9 +1,9 @@
 'use strict'
 
-/*var name = prompt("Welcome player, what is your name?");
+var name = prompt("Welcome player, what is your name?");
 alert("Welcome " + name + ". Get ready to meet me");
 alert("Please read info about me, then press buttons to play");
-alert("Answer with a yes or no");*/
+alert("Answer with a yes or no");
 
 var questions = ["Is my name Ahmad?","Do I like Real Madrid?","Did I spend my last two years in China?","Do I want to study AI in the future?","Do I hate movies?"];
 var answers = ["yes", "no"]
