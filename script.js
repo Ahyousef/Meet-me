@@ -19,7 +19,7 @@ function ques(num) {
             document.getElementById("prize").innerHTML = name + " you have " + correct + " Correct answers";
         }
         else {
-            alert("You are wrong! Try again");
+            ans1= prompt("You are wrong! Try again");
             document.getElementById("prize").innerHTML = "Try again " + name + "!";
 
         }
